@@ -11,7 +11,10 @@ function App() {
 
   return (
     <div className="App">
-
+      <Editor
+      height="100vh"
+      width="100%" 
+      />
     </div>
   )
 }
