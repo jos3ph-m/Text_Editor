@@ -14,6 +14,7 @@ function App() {
       <Editor
       height="100vh"
       width="100%" 
+      theme="vs-dark"
       />
     </div>
   )
