@@ -11,6 +11,7 @@ function App() {
 
   // Objectives
   // 1. Be able to change from 1 file to the next
+  // 2. get the value of Monaco editor
 
   return (
     <div className="App">
