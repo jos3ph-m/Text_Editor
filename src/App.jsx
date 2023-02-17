@@ -13,6 +13,8 @@ function App() {
   // 1. Be able to change from 1 file to the next
   // 2. get the value of Monaco editor
 
+  // a file path (name), a language, a default value
+
   return (
     <div className="App">
       <Editor
