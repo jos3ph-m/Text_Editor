@@ -23,6 +23,7 @@ function App() {
       theme="vs-dark"
       path={"filename"}
       defaultLanguage="python"
+      defaultValue="Here is some python text"
       />
     </div>
   )
