@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <Editor
       height="400px"
-      width="100%" 
+      width="800px" 
       theme="vs-dark"
       defaultLanguage="python"
       />
