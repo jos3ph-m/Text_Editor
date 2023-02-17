@@ -21,6 +21,7 @@ function App() {
       height="100vh"
       width="100%" 
       theme="vs-dark"
+      path={"filename"}
       defaultLanguage="python"
       />
     </div>
