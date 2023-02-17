@@ -9,6 +9,9 @@ function App() {
   // you can have editors of any size
   // full screen or embed type size
 
+  // Objectives
+  // 1. Be able to change from 1 file to the next
+
   return (
     <div className="App">
       <Editor
