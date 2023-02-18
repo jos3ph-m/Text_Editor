@@ -5,6 +5,8 @@ import './App.css'
 const files = {
   "script.py": {
     name: "filename",
+    language: "python",
+    value: "Here is some python text"
   }
 }
 
