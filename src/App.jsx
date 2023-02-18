@@ -4,7 +4,7 @@ import './App.css'
 
 const files = {
   "script.py": {
-    
+    name: "filename",
   }
 }
 
