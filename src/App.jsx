@@ -11,7 +11,7 @@ const files = {
 }
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [fileName, setFileName] = useState("script.py");
 
   // an important concept to understand about monaco - it will take up the full width/height of it's container (width:100%, height:100%)
   // you can have editors of any size
