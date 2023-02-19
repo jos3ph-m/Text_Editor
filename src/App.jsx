@@ -13,7 +13,7 @@ const files = {
 function App() {
   const [fileName, setFileName] = useState("script.py");
   const file = files[fileName]
-  // files["script.py"] -> name, language, value -> pass those to the editor
+  // files["script.py"] -> file -> name, language, value -> pass those to the editor
 
   // an important concept to understand about monaco - it will take up the full width/height of it's container (width:100%, height:100%)
   // you can have editors of any size
@@ -31,7 +31,7 @@ function App() {
       height="100vh"
       width="100%" 
       theme="vs-dark"
-      path={"filename"}
+      path={file.name}
       defaultLanguage="python"
       defaultValue="Here is some python text"
       />
