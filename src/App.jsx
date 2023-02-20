@@ -7,6 +7,9 @@ const files = {
     name: "script.py",
     language: "python",
     value: "Here is some python text"
+  },
+  "index.html": {
+    
   }
 }
 
