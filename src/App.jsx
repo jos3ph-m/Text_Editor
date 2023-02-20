@@ -33,7 +33,7 @@ function App() {
       theme="vs-dark"
       path={file.name}
       defaultLanguage={file.language}
-      defaultValue="Here is some python text"
+      defaultValue={file.value}
       />
     </div>
   )
