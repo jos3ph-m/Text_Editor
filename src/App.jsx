@@ -11,7 +11,7 @@ const files = {
   "index.html": {
     name: "index.html",
     language: "html",
-    value: "Here is some html text"
+    value: "<div></div>"
   }
 }
 
