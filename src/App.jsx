@@ -16,7 +16,7 @@ const files = {
 }
 
 function App() {
-  const [fileName, setFileName] = useState("script.py");
+  const [fileName, setFileName] = useState("script.py"); // change to "index.html"
   const file = files[fileName]
   // files["script.py"] -> file -> name, language, value -> pass those to the editor
 
@@ -32,6 +32,7 @@ function App() {
 
   return (
     <div className="App">
+      <button></button>
       <Editor
       height="100vh"
       width="100%" 
