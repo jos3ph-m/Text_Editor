@@ -32,7 +32,7 @@ function App() {
 
   return (
     <div className="App">
-      <button></button>
+      <button>Switch to index.html</button>
       <Editor
       height="100vh"
       width="100%" 
