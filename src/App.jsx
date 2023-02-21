@@ -33,6 +33,7 @@ function App() {
   return (
     <div className="App">
       <button>Switch to index.html</button>
+      <button>Switch to script.py</button>
       <Editor
       height="100vh"
       width="100%" 
