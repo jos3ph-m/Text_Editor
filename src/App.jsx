@@ -9,7 +9,7 @@ const files = {
     value: "Here is some python text"
   },
   "index.html": {
-    
+    name: "index.html"
   }
 }
 
