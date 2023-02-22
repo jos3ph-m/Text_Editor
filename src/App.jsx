@@ -47,7 +47,7 @@ function App() {
       height="100vh"
       width="100%" 
       theme="vs-dark"
-      onMount={}
+      onMount={handleEditorDidMount}
       path={file.name}
       defaultLanguage={file.language}
       defaultValue={file.value}
