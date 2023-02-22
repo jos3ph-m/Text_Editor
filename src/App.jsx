@@ -35,6 +35,10 @@ function App() {
     editorRef.current = editor;
   }
 
+  function getEditorValue() {
+    
+  }
+
   return (
     <div className="App">
       <button onClick={() => setFileName("index.html")}>Switch to index.html</button>
