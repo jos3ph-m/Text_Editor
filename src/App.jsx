@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useRef } from 'react'
 import Editor from "@monaco-editor/react"
 import './App.css'
 
