@@ -43,6 +43,7 @@ function App() {
     <div className="App">
       <button onClick={() => setFileName("index.html")}>Switch to index.html</button>
       <button onClick={() => setFileName("script.py")}>Switch to script.py</button>
+      <button></button>
       <Editor
       height="100vh"
       width="100%" 
