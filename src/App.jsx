@@ -17,6 +17,7 @@ const files = {
 
 function App() {
   const [fileName, setFileName] = useState("script.py"); // change to "index.html"
+  const editorRef = useRef(null)
   const file = files[fileName]
   // files["script.py"] -> file -> name, language, value -> pass those to the editor
 
