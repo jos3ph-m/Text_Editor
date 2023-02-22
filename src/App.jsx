@@ -31,6 +31,10 @@ function App() {
 
   // a file path (name), a language, a default value
 
+  function handleEditorDidMount(editor, monaco) {
+    
+  }
+
   return (
     <div className="App">
       <button onClick={() => setFileName("index.html")}>Switch to index.html</button>
