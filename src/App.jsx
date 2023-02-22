@@ -36,7 +36,7 @@ function App() {
   }
 
   function getEditorValue() {
-    
+    alert(editorRef.current.getValue())
   }
 
   return (
