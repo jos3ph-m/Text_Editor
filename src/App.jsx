@@ -47,6 +47,7 @@ function App() {
       height="100vh"
       width="100%" 
       theme="vs-dark"
+      onMount={}
       path={file.name}
       defaultLanguage={file.language}
       defaultValue={file.value}
