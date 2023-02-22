@@ -32,7 +32,7 @@ function App() {
   // a file path (name), a language, a default value
 
   function handleEditorDidMount(editor, monaco) {
-    
+    editorRef.current = editor;
   }
 
   return (
